@@ -185,3 +185,53 @@ a {
   font-size: 0.8rem;
   line-height: 1.4em;
 }
+
+/* Home Page Info Section */
+#home-page-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #d17547;
+  color: var(--tertiary-color);
+  height: fit-content;
+}
+
+#home-page-info h4 {
+  font-size: 25px;
+  font-weight: 200;
+  padding-bottom: 25px;
+}
+
+.stay-image {
+  background-image: url(./images/conservatory-one.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.restaurant-image {
+  background-image: url(./images/food-six.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.stay-text,
+.restaurant-text {
+  text-align: center;
+  padding: 25px;
+  font-weight: 200;
+}
+
+.read-more {
+  margin-top: 50px;
+}
+
+.stay-btn,
+.restaurant-btn {
+  text-decoration: none;
+  color: var(--tertiary-color);
+  padding: 10px 5px;
+  border: var(--tertiary-color) solid 2px;
+  border-radius: 5px;
+}
