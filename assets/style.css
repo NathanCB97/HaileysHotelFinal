@@ -271,3 +271,63 @@ a {
 .location i {
   padding: 25px;
 }
+
+/* Footer */
+footer {
+  display: grid;
+  grid-template-columns: 0.25fr 1fr 1fr 1fr 0.25fr;
+  grid-template-rows: repeat(2);
+  gap: 15px;
+  background-color: var(--primary-color);
+  font-family: var(--main-font);
+  color: var(--tertiary-color);
+  line-height: 1.7em;
+  font-size: 0.8rem;
+  padding: 10px;
+}
+
+.quick-links {
+  grid-column: 2;
+}
+
+.quick-links a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+
+.quick-links a:hover {
+  color: var(--quarternary-color);
+}
+
+.contact-footer {
+  grid-column: 3;
+}
+
+.address-footer {
+  grid-column: 4;
+}
+
+.name {
+  grid-column: 2 / span 3;
+  grid-row: 2;
+  text-align: center;
+  padding-bottom: 10px;
+  border-top: var(--tertiary-color) 2px solid;
+}
+
+.q-1,
+.q-2 {
+  display: inline-block;
+  justify-content: start;
+}
+
+.q-3,
+.q-4 {
+  display: inline-block;
+  justify-content: start;
+}
+
+.q-1,
+.q-3 {
+  padding-right: 5px;
+}
