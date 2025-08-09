@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #cc6633;
+  --primary-light-color: #d17547;
+  --secondary-color: #82774b;
+  --tertiary-color: #f5f6f6;
+  --quarternary-color: #000000;
+  --quintery-color: #a3a48f;
+  --main-font: font-family, "Inria Sans", Sans;
+  --title-font: font-family, "Inria Serif", Serif;
+}
+
+p {
+  font-family: var(--main-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--title-font);
+}
+
+a {
+  font-family: var(--main-font);
+}
+
+/* Nav Bar */
+.nav-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto;
+  column-gap: 15px;
+  align-items: center;
+  height: fit-content;
+  background-color: var(--primary-color);
+  text-align: center;
+}
+
+.logo {
+  grid-column: 2;
+  padding: 20px 0;
+}
+
+#logo a {
+  font-family: var(--title-font);
+  font-size: 1.5rem;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+  font-weight: 400;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+.nav-home {
+  grid-column: 6;
+}
+
+.nav-book {
+  grid-column: 7;
+}
+
+.nav-restaurant {
+  grid-column: 8;
+}
+
+.nav-about {
+  grid-column: 9;
+}
+
+.nav-contact {
+  grid-column: 10;
+}
+
+.nav-link:hover {
+  color: var(--quarternary-color);
+}
+
+/* Home Hero Section */
+#home-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  background-image: url(./images/hotel-lobby.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-text {
+  background-color: var(--secondary-color);
+  height: fit-content;
+  width: fit-content;
+  border: var(--tertiary-color) solid 2px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.hero-text h2 {
+  font-size: 1.8rem;
+  color: var(--tertiary-color);
+  font-weight: 100;
+  padding: 10px 15px;
+}
+
+.book-btn {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: var(--tertiary-color);
+  background-color: var(--primary-color);
+  border: var(--tertiary-color) solid 2px;
+  border-radius: 10px;
+  height: fit-content;
+  width: fit-content;
+  margin-top: 30px;
+  padding: 10px;
+}
