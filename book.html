@@ -57,5 +57,138 @@
         </div>
       </nav>
     </header>
+    <section class="booking-hero">
+      <h2>BOOKINGS</h2>
+    </section>
+    <section id="booking-form">
+      <form class="booking-container" action="booked.html">
+        <div class="name-div">
+          <label for="name">Full Name:</label><br />
+          <input type="text" placeholder="Name" required />
+        </div>
+
+        <div class="email-div">
+          <label for="email">Email:</label> <br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+        </div>
+
+        <div class="phone-div">
+          <label for="phone">Phone:</label> <br />
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="Phone"
+            required
+          />
+        </div>
+
+        <div class="checkin-div">
+          <label for="checkin-date">Check In Date</label> <br />
+          <input type="date" name="checkin" id="checkin-date" required />
+        </div>
+        <div class="checkout-div">
+          <label for="checkout-date">Check Out Date</label> <br />
+          <input type="date" name="checkout" id="checkout-date" required />
+        </div>
+        <div class="adults-div">
+          <label for="adults">Adults:</label><br />
+          <input
+            type="number"
+            name="adult"
+            id="adult"
+            placeholder="No of Adults"
+            required
+            min="1"
+            max="12"
+          />
+        </div>
+        <div class="kids-div">
+          <label for="kids">Kids:</label>
+          <input
+            type="number"
+            name="kids"
+            id="kids"
+            placeholder="No of Kids"
+            required
+            min="0"
+            max="6"
+          />
+        </div>
+        <div class="rooms-div">
+          <label for="rooms">Rooms:</label>
+          <input
+            type="number"
+            name="rooms"
+            id="rooms"
+            placeholder="No of Rooms"
+            required
+            min="1"
+            max="6"
+          />
+        </div>
+        <div class="room-type-div">
+          <label for="room-type">Room Type:</label> <br />
+          <select name="room-type" id="room-type">
+            <option value="Room Type">Room Type</option>
+            <option value="Modern Double">Modern Double</option>
+            <option value="Vintage Suite">Vintage Suite</option>
+            <option value="The Annex">The Annex</option>
+          </select>
+        </div>
+        <div class="submit-div">
+          <a class="btn" id="submit-btn" href="booked.html">Submit</a>
+        </div>
+      </form>
+    </section>
+    <section class="book-gallery">
+      <img class="b-g-1" src="./assets/images/bathroom-one.jpg" alt="" />
+      <img class="b-g-2" src="./assets/images/bathroom-two.jpg" alt="" />
+      <img src="./assets/images/bathroom-four.jpg" alt="" class="b-g-3" />
+    </section>
+
+    <footer>
+      <div class="quick-links">
+        <p>Quick Links:</p>
+        <div>
+          <div class="q-1">
+            <a href="index.html">Home </a>
+          </div>
+          <div class="q-2">
+            <a href="book.html">Book</a>
+          </div>
+        </div>
+        <div>
+          <div class="q-3">
+            <a href="about.html">About</a>
+          </div>
+          <div class="q-4">
+            <a href="contact.html"> Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-footer">
+        <p>Contact:</p>
+        <p>01234 567 890</p>
+        <p>info@haileyshotel.co.uk</p>
+      </div>
+      <div class="address-footer">
+        <p>Address:</p>
+        <p>123 Fake Street,</p>
+        <p>Nice Town, P5T CD3</p>
+      </div>
+      <div class="name">
+        <p class="footer-title">
+          Hailey's Hotel &copy; 2025 All rights Reserved
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
