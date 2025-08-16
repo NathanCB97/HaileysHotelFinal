@@ -34,11 +34,9 @@
   .nav-contact {
     grid-column: 8;
   }
-}
 
-/* HOME PAGE */
+  /* HOME PAGE */
 
-@media (max-width: 480px) {
   .room-type {
     height: fit-content;
   }
@@ -55,6 +53,20 @@
 
   #room-type-three {
     grid-column: 2 / span 3;
+    grid-row: 3;
+  }
+
+  #home-page-info {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .stay-image,
+  .restaurant-image {
+    height: 25vh;
+  }
+
+  .restaurant-image {
     grid-row: 3;
   }
 }
