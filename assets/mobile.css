@@ -126,4 +126,7 @@
   .submit {
     padding: 10px;
   }
+  .map {
+    background-size: auto;
+  }
 }
