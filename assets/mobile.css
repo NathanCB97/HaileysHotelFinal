@@ -1,3 +1,5 @@
+/* NAVBAR */
+
 @media (max-width: 480px) {
   .nav-home,
   .nav-book,
@@ -31,5 +33,28 @@
 
   .nav-contact {
     grid-column: 8;
+  }
+}
+
+/* HOME PAGE */
+
+@media (max-width: 480px) {
+  .room-type {
+    height: fit-content;
+  }
+
+  #room-type-one {
+    grid-column: 2 / span 3;
+    grid-row: 1;
+  }
+
+  #room-type-two {
+    grid-column: 2 / span 3;
+    grid-row: 2;
+  }
+
+  #room-type-three {
+    grid-column: 2 / span 3;
+    grid-row: 3;
   }
 }
