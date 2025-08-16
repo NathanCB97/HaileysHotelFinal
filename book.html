@@ -61,89 +61,91 @@
       <h2>BOOKINGS</h2>
     </section>
     <section id="booking-form">
-      <form class="booking-container" action="booked.html">
-        <div class="name-div">
-          <label for="name">Full Name:</label><br />
-          <input type="text" placeholder="Name" required />
-        </div>
+      <form action="booked.html">
+        <div class="booking-container">
+          <div class="g-i-1">
+            <label for="name">Full Name:</label><br />
+            <input type="text" placeholder=" Full Name" required />
+          </div>
 
-        <div class="email-div">
-          <label for="email">Email:</label> <br />
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Email"
-            required
-          />
-        </div>
+          <div class="g-i-2">
+            <label for="email">Email:</label> <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+          </div>
 
-        <div class="phone-div">
-          <label for="phone">Phone:</label> <br />
-          <input
-            type="tel"
-            name="phone"
-            id="phone"
-            placeholder="Phone"
-            required
-          />
-        </div>
+          <div class="g-i-3">
+            <label for="phone">Phone:</label> <br />
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="Phone"
+              required
+            />
+          </div>
 
-        <div class="checkin-div">
-          <label for="checkin-date">Check In Date</label> <br />
-          <input type="date" name="checkin" id="checkin-date" required />
-        </div>
-        <div class="checkout-div">
-          <label for="checkout-date">Check Out Date</label> <br />
-          <input type="date" name="checkout" id="checkout-date" required />
-        </div>
-        <div class="adults-div">
-          <label for="adults">Adults:</label><br />
-          <input
-            type="number"
-            name="adult"
-            id="adult"
-            placeholder="No of Adults"
-            required
-            min="1"
-            max="12"
-          />
-        </div>
-        <div class="kids-div">
-          <label for="kids">Kids:</label>
-          <input
-            type="number"
-            name="kids"
-            id="kids"
-            placeholder="No of Kids"
-            required
-            min="0"
-            max="6"
-          />
-        </div>
-        <div class="rooms-div">
-          <label for="rooms">Rooms:</label>
-          <input
-            type="number"
-            name="rooms"
-            id="rooms"
-            placeholder="No of Rooms"
-            required
-            min="1"
-            max="6"
-          />
-        </div>
-        <div class="room-type-div">
-          <label for="room-type">Room Type:</label> <br />
-          <select name="room-type" id="room-type">
-            <option value="Room Type">Room Type</option>
-            <option value="Modern Double">Modern Double</option>
-            <option value="Vintage Suite">Vintage Suite</option>
-            <option value="The Annex">The Annex</option>
-          </select>
-        </div>
-        <div class="submit-div">
-          <a class="btn" id="submit-btn" href="booked.html">Submit</a>
+          <div class="g-i-4">
+            <label for="checkin-date">Check In Date</label> <br />
+            <input type="date" name="checkin" id="checkin-date" required />
+          </div>
+          <div class="g-i-5">
+            <label for="checkout-date">Check Out Date</label> <br />
+            <input type="date" name="checkout" id="checkout-date" required />
+          </div>
+          <div class="g-i-6">
+            <label for="adults">Adults:</label><br />
+            <input
+              type="number"
+              name="adult"
+              id="adult"
+              placeholder="No of Adults"
+              required
+              min="1"
+              max="12"
+            />
+          </div>
+          <div class="g-i-7">
+            <label for="kids">Kids:</label>
+            <input
+              type="number"
+              name="kids"
+              id="kids"
+              placeholder="No of Kids"
+              required
+              min="0"
+              max="6"
+            />
+          </div>
+          <div class="g-i-8">
+            <label for="rooms">Rooms:</label>
+            <input
+              type="number"
+              name="rooms"
+              id="rooms"
+              placeholder="No of Rooms"
+              required
+              min="1"
+              max="6"
+            />
+          </div>
+          <div class="g-i-9">
+            <label for="room-type">Room Type:</label> <br />
+            <select name="room-type" id="room-type">
+              <option value="Room Type">Room Type</option>
+              <option value="Modern Double">Modern Double</option>
+              <option value="Vintage Suite">Vintage Suite</option>
+              <option value="The Annex">The Annex</option>
+            </select>
+          </div>
+          <div class="g-i-10">
+            <a class="btn" id="submit-btn" href="booked.html">Submit</a>
+          </div>
         </div>
       </form>
     </section>

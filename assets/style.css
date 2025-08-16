@@ -331,3 +331,180 @@ footer {
 .q-3 {
   padding-right: 5px;
 }
+
+/* ------------- */
+/* Bookings Page */
+/* ------------- */
+.booking-hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  background-image: url(./images/room-one.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.booking-hero h2 {
+  background-color: #d17547;
+  text-align: center;
+  align-content: center;
+  height: 8vh;
+  width: 30vw;
+  border: var(--tertiary-color) solid 2px;
+  border-radius: 10px;
+  font-family: var(--main-font);
+  color: var(--tertiary-color);
+  font-weight: 600;
+}
+
+#booking-form {
+  background-color: var(--quintery-color);
+}
+
+.form-title {
+  font-size: 30px;
+}
+
+form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid var(--quarternary-color);
+}
+
+form input:hover {
+  border-color: var(--primary-color);
+}
+
+.booking-container {
+  font-family: var(--main-font);
+  font-weight: 600;
+  color: var(--tertiary-color);
+  padding: 50px;
+  border-radius: 5px;
+  align-content: space-around;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 1fr 10px 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.g-i-1 {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+
+.g-i-1 input,
+.g-i-2 input,
+.g-i-3 input,
+.g-i-4 input,
+.g-i-5 input,
+.g-i-6 input,
+.g-i-7 input,
+.g-i-8 input,
+.g-i-9 input {
+  width: 100%;
+  height: 8vh;
+}
+
+.g-i-2 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.g-i-3 {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.g-i-4 {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.g-i-5 {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+.g-i-6 {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.g-i-6 {
+  grid-column: 3;
+  grid-row: 4;
+}
+
+.g-i-7 {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.g-i-8 {
+  grid-column: 3;
+  grid-row: 5;
+}
+
+.g-i-9 {
+  grid-column: 1;
+  grid-row: 5;
+}
+
+.g-i-10 {
+  grid-column: 2;
+  grid-row: 6;
+}
+
+.g-i-9 select {
+  width: 100%;
+  height: 8vh;
+  padding: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.g-i-10 a {
+  padding: 10px 100px;
+  background: #f5f6f6;
+  border-radius: 5px;
+  border: 2px black solid;
+  text-decoration: none;
+  color: #000000;
+}
+
+#submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.g-i-10 a:hover {
+  border-color: var(--tertiary-color);
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+}
+
+.room-type-div select:hover {
+  border-color: var(--primary-color);
+}
+
+.book-gallery {
+  display: flex;
+  flex-direction: row;
+}
+
+.b-g-1,
+.b-g-2,
+.b-g-3 {
+  max-width: 33.3%;
+  max-height: 33.3%;
+  object-fit: cover;
+}
