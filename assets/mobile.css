@@ -1,0 +1,35 @@
+@media (max-width: 480px) {
+  .nav-home,
+  .nav-book,
+  .nav-about,
+  .nav-contact {
+    grid-row: 2;
+    margin: 10px 0px;
+  }
+
+  .logo {
+    grid-column: 1 / span 11;
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-home {
+    grid-column: 4;
+  }
+
+  .nav-book {
+    grid-column: 5;
+  }
+
+  .nav-restaurant {
+    grid-column: 6;
+  }
+
+  .nav-about {
+    grid-column: 7;
+  }
+
+  .nav-contact {
+    grid-column: 8;
+  }
+}
