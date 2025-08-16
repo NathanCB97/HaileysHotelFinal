@@ -75,6 +75,10 @@ See the outcome of the manual testing to ensure all links work.
 
 ![testing results](assets/readme-images/testing-results.png)
 
+After deploying my site via github pages I redid the test to ensure it had been deployed properly. The results are below.
+
+![post deployment test results](assets/readme-images/post-deployment-test-results.png)
+
 ## Tech Stack
 
 - HTML5
