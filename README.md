@@ -67,6 +67,14 @@ Below, you can see how I have executed the needs stated in the user stories.
    ![restaurant page mobile](assets/readme-images/mobile-restaurant.png)
    Here are a few screenshots that show how my website has been optimised for mobile. I have used Grid throughout my site in order to apply different layouts to the forms and web pages across different devices, creating a responsive website.
 
+## Testing
+
+In order to test that all the links on my site work I will carry out a manual testing process. This will involve creating a spreadsheet to note the link text, the URL, the expected result, the actual result and whether or not it passes or fails.
+
+See the outcome of the manual testing to ensure all links work.
+
+![testing results](assets/readme-images/testing-results.png)
+
 ## Tech Stack
 
 - HTML5
